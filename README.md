@@ -15,23 +15,23 @@
 <div align="center">
   Wähle eine Technologie um die Konventionen anzuzeigen
   <h4>
-    <a href="https://choo.io">
+    <a href="html/HTML.md">
       HTML
     </a>
     <span> | </span>
-    <a href="https://github.com/choojs/choo-handbook">
+    <a href="css/CSS.md">
       CSS
     </a>
     <span> | </span>
-    <a href="https://github.com/YerkoPalma/awesome-choo">
+    <a href="js/JAVASCRIPT.md">
       JavaScript
     </a>
     <span> | </span>
-    <a href="https://github.com/choojs/choo/blob/master/.github/CONTRIBUTING.md">
+    <a href="php/PHP.md">
       PHP
     </a>
     <span> | </span>
-    <a href="https://www.reddit.com/r/choojs/">
+    <a href="mysql/MYSQL.md">
       MySQL
     </a>
   </h4>
@@ -42,6 +42,8 @@
 -----
 
 ## Grundlagen
+
+[go to top](#CodingConventions)
 
 Folgend werden die Grundlagen erklärt, die unabhängig von der Programmiersprache anzuwenden sind.
 
@@ -84,6 +86,9 @@ Aus folgenden Gründen sind Code Conventions wichtig:
 - Für den Fall, dass Sie Ihren Quellcode verkaufen möchten, sollten Sie sicherstellen, dass er genauso gut verpackt und sauber daherkommt, wie jedes andere von Ihnen erzeugte Produkt auch.
 
 ## Dateien und Ordner
+
+[go to top](#CodingConventions)
+
 Dateien und Ordner wollen sinnvoll und korrekt angeschrieben werden, sodass sich jeder im Dateibaum schnell zurecht findet.
 
 ### UNIX
@@ -144,6 +149,8 @@ Diese Ordnerstruktur ist natürlich nicht in Stein gemeisselt. z.B. Für die Kre
 Je nach Grösse werden die Ordner (css, js, img, php, html) innerhalb ausgebaut. Es ist aber empfehlenswert, die index.html/index.php ausserhalb **alleine** stehen zu lassen.
 
 ## Naming
+
+[go to top](#CodingConventions)
 
 Sinnvoles Naming erleichtert die Programmierung und vor allem **die Fehlerkorrektur** erheblich. Wer Code schreibt, soll ihn so schreiben, sodass auch andere diesen Lesen können. **Ein Programmierer ist der Schriftsteller seines Codes**. Der Code soll in jeder Zeile ohne Kommentar erklären, was er gerade macht.
 
