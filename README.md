@@ -3,7 +3,7 @@
 <div align="center">Der verbindliche Guide für einheitlichen Code an der FHGR</div>
 
 <div align="center">
-  <sub>Dies ist Version 2.1</sub>
+  <sub>Dies ist Version 2.0</sub>
 </div>
 <br>
 <div align="center">
