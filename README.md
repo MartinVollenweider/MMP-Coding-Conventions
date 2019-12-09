@@ -99,15 +99,15 @@ Windows sowie Mac unterscheiden bei Dateinamen nicht zwischen Gross- und Kleinsc
 
 Ideale Dateinamen erfüllen folgende Konventionen:
 - Kleinbuchstaben, keine Leerzeichen
-- Keine Abkürzungen, **selbsterklärend** (siehe Naming)
-- Mit Underscores (_), Punkten oder Bindestrichen getrennt
+- Keine Abkürzungen, **selbsterklärend** (siehe [Naming](#naming))
+- Mit Underscores (_), Punkten (.) oder Bindestrichen (-) getrennt
 
 Gute Beispiele:
 ```
-index.html              script-nav.js 
+index.html              script-nav.js
 about_us.html           main.js
-style.css               img-logo.png 
-style_index.css         icon-help.gif 
+style.css               img-logo.png      
+bootstrap.min.css       icon-help.gif 
 style-no-flash.css      bg-gradient.svg
 ```
 
