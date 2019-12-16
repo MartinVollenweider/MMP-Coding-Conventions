@@ -15,6 +15,10 @@
 <div align="center">
   Wähle eine Technologie um die Konventionen anzuzeigen
   <h4>
+    <span>
+      Start
+    </span>
+    <span> | </span>
     <a href="html/HTML.md">
       HTML
     </a>
@@ -191,7 +195,7 @@ Ohne den Code der obigen Funktionen und Methoden eigesehen zu haben, weiss man, 
 ----
 
 <div align="center">
-  #### Besten Dank für deine Aufmerksamkeit!
+  <h4>Besten Dank für deine Aufmerksamkeit!</h4>
   
   Wenn du Anmerkungen zu den obigen Coding-Conentions hast, so schreibe eine [Mail](mailto:samuel.rhyner@fhgr.ch).
 </div>
