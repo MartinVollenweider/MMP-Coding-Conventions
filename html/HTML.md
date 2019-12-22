@@ -17,19 +17,19 @@
       HTML
     </span>
     <span> | </span>
-    <a href="css/CSS.md">
+    <a href="../css/CSS.md">
       CSS
     </a>
     <span> | </span>
-    <a href="js/JAVASCRIPT.md">
+    <a href="../js/JAVASCRIPT.md">
       JavaScript
     </a>
     <span> | </span>
-    <a href="php/PHP.md">
+    <a href="../php/PHP.md">
       PHP
     </a>
     <span> | </span>
-    <a href="mysql/MYSQL.md">
+    <a href="../mysql/MYSQL.md">
       MySQL
     </a>
   </h4>
@@ -71,6 +71,8 @@ Beispiel mit jeweils 1 Tab (4 Leerschläge) Zeileneinschub. Die Punkte zeigen an
 ```
 
 ## HTML-Sprache
+
+[go to top](#HTML)
 
 Genau genommen ist HTML keine Programmiersprache, sondern eine **"Struktur-Sprache"**. Also mit HTML kann man keine Logik programmieren, sondern nur angeben, wie eine Webseite strukturiert sein soll. Diese Struktur geben wir in Hierarchien wieder. Jedes Element hat ein Eltern-Element und eventuell ein Kinder-Element. Damit die Hierarchie eindeutig ist, **muss jeweils der Start und das Ende eines Tags angegeben** werden.
 
