@@ -130,7 +130,7 @@ Weitere Medien-Dateien wiefolgt aufbereiten:
 - Video
   - Videodateien grundsätzlich nie in Webprojekte einbinden, sondern falls immer möglich mittels Youtube oder Vimeo ausspielen und anschliessend via Embedcode einbinden. Der Grund liegt, neben der teils enormen Dateigrössen, im intelligenten Qualitäts- und Verbindungsmanagement der Plattformen, die in Echtzeit die Verbindungsqualität zum Endgerät messen und automatisch die dafür optimierte Variante streamen.
 - Webseiten
- - Embedcodes auf der Basis von <iframe> sind per se nicht responsiv. Mit dem nachstehenden CSS-Hack aber (zusätzliches Elternelement <div> der Klasse "videocontainer") kann jeder iFrame ohne weiteres responsiv gemacht werden.
+  - Embedcodes auf der Basis von <iframe> sind per se nicht responsiv. Mit dem nachstehenden CSS-Hack aber (zusätzliches Elternelement <div> der Klasse "videocontainer") kann jeder iFrame ohne weiteres responsiv gemacht werden.
 
 ```css
 /* Responsive Video */ 
