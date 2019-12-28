@@ -95,18 +95,25 @@ Aus folgenden Gründen sind Code Conventions wichtig:
 
 Dateien und Ordner wollen sinnvoll und korrekt angeschrieben werden, sodass sich jeder im Dateibaum schnell zurecht findet.
 
-### UNIX
-
-Windows sowie Mac unterscheiden bei Dateinamen nicht zwischen Gross- und Kleinschreibung. Daher sind **Grossbuchstaben in Dateinamen verboten**, wenn sie zur Unterscheidung von Dateien dienen.
-
 ### Dateinamen
 
 Ideale Dateinamen erfüllen folgende Konventionen:
 - Kleinbuchstaben, keine Leerzeichen
+- Deutsch
 - Keine Abkürzungen, **selbsterklärend** (siehe [Naming](#naming))
 - Mit Underscores (_), Punkten (.) oder Bindestrichen (-) getrennt
 
-Gute Beispiele:
+Wir vergeben wir für Ordner- und Dateinamen nach Möglichkeit nur Kleinbuchstaben. Beispiel:
+```
+'Über Uns.html' --> 'ueber_uns.html'
+```
+
+Um die Lesbarkeit zu verbessern können Unterstrich-Namen verwendet werden. Beispiel:
+```
+'listeausgabesortiert.html' --> 'liste_ausgabe_sortiert.html'
+```
+
+Weitere gute Beispiele:
 ```
 index.html              script-nav.js
 about_us.html           main.js
@@ -114,6 +121,12 @@ style.css               img-logo.png
 bootstrap.min.css       icon-help.gif 
 style-no-flash.css      bg-gradient.svg
 ```
+Verbotene Zeichen:
+- Europäische Sonderzeichen (z.B. ä, ö, ü, é, à, è, ç etc.)
+- Leerzeichen
+- Sonderzeichen (z.B. Punkt, ?, $ etc.)
+- Grossbuchstaben
+
 
 ### Ordnerstruktur
 

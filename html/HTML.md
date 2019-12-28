@@ -46,6 +46,7 @@
 - [HTML](#HTML-sprache)
   - [Attribute](#attribute)
   - [Bilder](#Bilder)
+  - [Medien](#Medien)
 - [Head](#head)
   - [Meta-Tags](#meta-tags)
   - [Stylesheets](#stylesheets)
@@ -112,6 +113,46 @@ Nebst dem ``src="..."`` und evtl. ``class="..."`` Attribut hat jedes Bild einen 
 ```html
 <img src="img_html5.png" alt="Bild des HTML5 Logos">
 ```
+
+#### Dateigrössen
+1. Bilder retuschieren, dann auf die richtige Grösse bringen. Zuerst verkleinern, dann komprimieren. jpg-Bilder immer auf die effektiv benötigte Grösse skalieren (bei Retina-Auflösungen das Doppelte) und anschliessend mittels Photoshop [fürs Web optimieren](https://helpx.adobe.com/ch_de/photoshop-elements/using/optimizing-images.html).
+2. Bilder werden in Photoshop über Datei>Exportieren>Exportieren als… (File>Export>Export as…) exportiert. Dateiformat und Kompressionsstufe hängen vom Bild und Einsatzzweck ab. Nur JPG, PNG oder GIF verwenden!
+
+Alternativen:
+- JPG optimieren mit [jpegmini](https://www.jpegmini.com/)
+- PNG optimieren mit [kraken.io](https://kraken.io/)
+
+### Medien
+
+Weitere Medien-Dateien wiefolgt aufbereiten:
+- Audio
+  - Audiodateien nie als wav, sondern immer nur als mp3 oder ogg verwenden. Bei mp3 gilt als Faustregel für normale Aufnahmen eine Auflösung von 128 kbps als gut (Musik und Ambi/Atmo stereo, Voice ond off-Text mono). Bei Hochqualitätsprojekten gelten 192 kbps als gut.
+- Video
+  - Videodateien grundsätzlich nie in Webprojekte einbinden, sondern falls immer möglich mittels Youtube oder Vimeo ausspielen und anschliessend via Embedcode einbinden. Der Grund liegt, neben der teils enormen Dateigrössen, im intelligenten Qualitäts- und Verbindungsmanagement der Plattformen, die in Echtzeit die Verbindungsqualität zum Endgerät messen und automatisch die dafür optimierte Variante streamen.
+- Webseiten
+ - Embedcodes auf der Basis von <iframe> sind per se nicht responsiv. Mit dem nachstehenden CSS-Hack aber (zusätzliches Elternelement <div> der Klasse "videocontainer") kann jeder iFrame ohne weiteres responsiv gemacht werden.
+
+```css
+/* Responsive Video */ 
+.videocontainer { 
+  position: relative; 
+  padding-bottom: 56.25%; /* ratio 16x9 */ 
+  height: 0; 
+  overflow: hidden; 
+  width: 100%; 
+  height: auto; 
+}
+
+.videocontainer iframe { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  border: 0; 
+}
+```
+
 
 ## Head
 
