@@ -144,7 +144,7 @@ Eine einheitliche und sinnvolle Ordnerstruktur hilft, **Dateien schneller zu fin
   └ index.html
 ```
 
-Diese Ordnerstruktur ist natürlich nicht in Stein gemeisselt. Für die Kreativ-Projekte wird eine z.B. andere Ordnerstruktur empfohlen.
+Diese Ordnerstruktur ist natürlich nicht in Stein gemeisselt. Für die Kreativ-Projekte wird eine z.B. andere Ordnerstruktur empfohlen. Beispiel:
 
 ```
 -bridgeos
@@ -171,7 +171,7 @@ Je nach Grösse werden die Ordner (css, js, img, php, html) innerhalb ausgebaut.
 
 [go to top](#CodingConventions)
 
-Sinnvoles Naming erleichtert die Programmierung und vor allem **die Fehlerkorrektur** erheblich. Wer Code schreibt, soll ihn so schreiben, sodass auch andere diesen Lesen können. **Ein Programmierer ist der Schriftsteller seines Codes**. Der Code soll in jeder Zeile ohne Kommentar erklären, was er gerade macht.
+Sinnvoles Naming erleichtert die Programmierung und vor allem **die Fehlerkorrektur** erheblich. Wer Code schreibt, soll ihn so schreiben, sodass auch andere diesen lesen können. **Ein Programmierer ist der Schriftsteller seines Codes**. Der Code soll in jeder Zeile ohne Kommentar erklären, was er gerade macht.
 
 ### Grundsätzlich
 Bei Namen von Variablen, Funktionen, Dateien usw. möglichst **ganze Wörter** brauchen. Ein paar Abkürzungen sind erlaubt:
