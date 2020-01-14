@@ -63,10 +63,10 @@ Folgend werden die Grundlagen erklärt, die unabhängig von der Programmiersprac
   - [Story](#story)
 
 ### Sprache
-Die Sprache beim Coden ist **Englisch**. An der FHGR verwenden wir für Variabelnamen, Funktionsnamen und Dateinamen aber die **deutsche Sprache**.
+Die Sprache beim Coden ist **Englisch**. An der FHGR verwenden wir für Variablenamen, Funktionsnamen und Dateinamen aber die **deutsche Sprache**.
 
 ### Zeichen
-Alle Klassen-, id-, Funktions-, Variabel-, Dateinamen beginnen mit **einem Buchstaben**. In speiziellen Fällen (z.B. wenn alte Dateien/Ordner) sind Underscores (_) erlaubt.
+Alle Klassen-, id-, Funktions-, Variabel-, Dateinamen beginnen mit **einem Buchstaben**. In speziellen Fällen (z.B. wenn alte Dateien/Ordner) sind Underscores (_) erlaubt.
 
 Folgende Zeichen sind **erlaubt**:
 
@@ -81,7 +81,7 @@ Folgende Zeichen sind **verboten**:
 - Programmier-Sonderzeichen (. , ,, ?, !, $, /, |, \, >, <, usw.)
 - Grossbuchstaben bei Dateinamen
 
-### Wieso CodingConventions?
+### Wieso Coding Conventions?
 
 Aus folgenden Gründen sind Code Conventions wichtig:
 - Code Conventions erhöhen die Lesbarkeit der Software und ermöglichen es, neuen Code schneller und gründlicher zu verstehen
@@ -127,6 +127,8 @@ Verbotene Zeichen:
 - Sonderzeichen (z.B. Punkt, ?, $ etc.)
 - Grossbuchstaben
 
+#### Vorschlag für Dateinamen
+- Deutsch, Kleinbuchstaben, wegen der besseren Lerbarkeit mit Underscores getrennt
 
 ### Ordnerstruktur
 
@@ -142,7 +144,7 @@ Eine einheitliche und sinnvolle Ordnerstruktur hilft, **Dateien schneller zu fin
   └ index.html
 ```
 
-Diese Ordnerstruktur ist natürlich nicht in Stein gemeisselt. z.B. Für die Kreativ-Projekte wird eine andere Ordnerstruktur empfohlen.
+Diese Ordnerstruktur ist natürlich nicht in Stein gemeisselt. Für die Kreativ-Projekte wird eine z.B. andere Ordnerstruktur empfohlen.
 
 ```
 -bridgeos
