@@ -65,11 +65,11 @@ Variablen und Arrays werden nach einem klaren Schema definiert.
 ```php
 // falsch
 $a=$b+$c;
-$array=[‘taa’,’daa’];
+$array=['taa','daa'];
 
 // richtig - genug Abstände!
 $a = $b + $c;
-$array = [ ‘taa’, ‘daa’ ];
+$array = [ 'taa', 'daa' ];
 ```
 
 ### Klassen
