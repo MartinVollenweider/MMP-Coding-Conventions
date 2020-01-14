@@ -53,7 +53,7 @@
   - [Skripte](#skripte)
 
 
-HTML Dokumente erfordern einen systematischen und strukturierten Aufbau. Halte deinen Code stets aufgeräumt, sauber und schön formatiert - _auch nach dem kopieren_!
+HTML Dokumente erfordern einen systematischen und strukturierten Aufbau. Halte deinen Code stets aufgeräumt, sauber und schön formatiert - _auch nach dem Kopieren_!
 
 Beispiel mit jeweils 1 Tab (4 Leerschläge) Zeileneinschub. Die Punkte zeigen an, wieviele Leerschläge sich bei den Abständen verbringen
 
@@ -86,6 +86,8 @@ Der End-Tag wird mit einem **vorangehenden Slash** definiert. Es gibt also pro T
 ```html
 ALLE TAGS SIND IMMER GESCHLOSSEN
 ```
+###Ausnahmen
+Keine Regel ohne Ausnahme: Es gibt einige Tags, welche nicht geschlossen werden (z.B. <br>, also der Zeilenumbruch oder <img>, also Bilder).
 
 Zwischen zwei Tags ist der Tag-Inhalt. Ist dieser Inhalt einen oder mehrere weitere Tags. Der Übersichtlichkeithalber kommen diese auf **je eine neue, eins weiter eingerückte** Zeile:
 
@@ -108,7 +110,7 @@ Alle HTML-Starttags können Attribute aufnehmen. Diese sind immer nach einem Lee
 
 ### Bilder
 
-Nebst dem ``src="..."`` und evtl. ``class="..."`` Attribut hat jedes Bild einen ``alt="..."``-Text. Das ist **die minimalste Form** der Accessibility im Web.
+Nebst dem ``src="..."`` und evtl. ``class="..."`` Attribut hat jedes Bild einen ``alt="..."``-Text. Das ist **die minimalste Form** der Accessibility im Web. Der alt-Text ist wichtig: Das Attribut beschreibt das Bild für sehbehinderte oder blinde Personen, welche sich die Website mit einem Blindenleser vorlesen lassen.
 
 ```html
 <img src="img_html5.png" alt="Bild des HTML5 Logos">
@@ -164,7 +166,7 @@ Im Head werden Seiteneigenschaften und weitere Dateien eingebunden.
 
 [Meta tags - w3schools](https://www.w3schools.com/html/html_head.asp)
 
-Die Metadaten werden genutzt, das HTML-File besser zu spezifizieren (Stichwort: SEO).Zwei wichtige - und in jedem Dokument vorhandene - Metatags sind:
+Die Metadaten werden genutzt, das HTML-File besser zu spezifizieren (Stichwort: SEO). Zwei wichtige - und in jedem Dokument vorhandene - Metatags sind:
 
 ```html
 <meta charset="UTF-8">
@@ -191,7 +193,7 @@ In grösseren Projekten gibt es viele Stylesheets. Da empfiehlt sich folgende Re
 
 [Skripte - w3schools](https://www.w3schools.com/tags/tag_script.asp)
 
-Um einer Webseite interaktivität zu verleihen, werden Skripte eingebunden. Diese werden als letzte Elemente vor dem </body>-Tag eingebunden, da zu diesem Zeitpunkt die ganze Webseite schon steht (DOM ist vollständig).
+Um einer Webseite Interaktivität zu verleihen, werden Skripte eingebunden. Diese werden als letzte Elemente vor dem </body>-Tag eingebunden, da zu diesem Zeitpunkt die ganze Webseite schon steht, resp. geladen ist (DOM ist vollständig).
 
 ```html
 <body>
