@@ -131,7 +131,7 @@ if (userObject.isMale) {
 Selbes wie bei der Bedingung zählt für die Schleifen. In der For-Schleife gibt es nach den Semikolon jeweils ein Leerzeichen.
 
 ```js
-for (var counter = 1; counter < 15; counter++) {
+for (let counter = 1; counter < 15; counter++) {
     console.log('Durchgang ' + counter);
 }
 ```
