@@ -114,7 +114,7 @@ Pseudo-Klassen werden direkt nach der Urspungsklasse definiert. Eine Dokumentati
 .user-name-list:first-child { /* ... */ }
 ```
 
-### Variabeln
+### Variablen
 
 In CSS kann man Variablen definieren. Der beste Anwendungsbereich liegt bei den Corporate Farben, die man so einmal definiert und anschliessend nur noch als Name verwendet.
 
