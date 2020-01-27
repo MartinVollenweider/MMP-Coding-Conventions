@@ -193,7 +193,7 @@ In grösseren Projekten gibt es viele Stylesheets. Da empfiehlt sich folgende Re
 
 [Skripte - w3schools](https://www.w3schools.com/tags/tag_script.asp)
 
-Um einer Webseite Interaktivität zu verleihen, werden Skripte eingebunden. Diese werden als letzte Elemente vor dem </body>-Tag eingebunden, da zu diesem Zeitpunkt die ganze Webseite schon steht, resp. geladen ist (DOM ist vollständig).
+Um einer Webseite Interaktivität zu verleihen, werden Skripte eingebunden. Diese werden als letzte Elemente vor dem schliesenden body Tag eingebunden, da zu diesem Zeitpunkt die ganze Webseite schon steht, resp. geladen ist (DOM ist vollständig).
 
 ```html
 <body>
