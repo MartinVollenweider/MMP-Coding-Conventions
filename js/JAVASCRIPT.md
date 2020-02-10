@@ -111,9 +111,18 @@ Funktionen werden mit lowerCamelCase benennt. Jeder Parameter enhält ein ``para
 
 ### Events
 
-[Events - w3schools](https://api.jquery.com/category/events/)
+[Events - w3schools](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
 
-coming soon..
+In HTML kann man Elementen einen Event zuweisen. Dieser sogenannte 'EventListener' lauscht, bis das Ereigniss passiert. Dies ist meistens mit User-Interaktionen verbunden. Diese werden wiefolg definiert:
+
+```js
+let wettbewerbFormular = document.querySelector("#wettbewerbFormular");
+wettbewerbFormular.addEventListener('submit', wettbewerbSubmit); // Dieser EventListener hört auf den 'submit' Event des Formulars. In diesem Falle ist das das Absenden des Formulars
+
+function wettbewerbSubmit() {
+  //...
+}
+```
 
 
 ### Bedingungen
