@@ -44,7 +44,16 @@
 [go to top](#JavaScript)
 
 - [Naming](#Naming)
-- [Kollation](#Kollation)
+- [Kommentare](#kommentare)
+- [Selektion](#selektion)
+- [Fehlersuche](#fehlersuche)
+- [Objekte/Arrays](#objektearrays)
+- [Funktionen](#funktionen)
+- [Events](#events)
+- [Bedingungen](#bedingungen)
+- [Schleifen](#schleifen)
+
+
 
 ### Naming
 
@@ -63,6 +72,8 @@ In den Variabelnamen sollen möglichst **keine Schlüsselwörter aus der Program
 
 ### Kommentare
 
+[Kommentare - w3schools](https://www.w3schools.com/js/js_comments.asp)
+
 **Kommentare erklären Code.** Das wichtigste dabei ist, dass sie nicht alt sind. Kommentare anpassen, wenn sich der Code verändert - ist im Nachhinein goldwert!
 
 ```js
@@ -73,7 +84,20 @@ In den Variabelnamen sollen möglichst **keine Schlüsselwörter aus der Program
  */
 ```
 
+### Selektion
+
+[DOM-Elemente - w3schools](https://www.w3schools.com/js/js_htmldom_elements.asp)
+
+Um Interaktion mit der Webseite zu erzielen, müssen wir zu gewissen HTML-Elementen JavaScript-Code 'hinzufügen'. Um Elemente im JavaScript auszuwählen (selektieren) nutzen wir die Funktion ``querySelector``. Damit kann via CSS-Selektor ein HTML-Element angewählt werden.
+
+```js
+let buttonZurueck = document.querySelector('#btnZurueck');
+let subtitleText = document.querySelector('.subtitle');
+```
+
 ### Fehlersuche
+
+[console.log() - w3schools](https://www.w3schools.com/jsref/met_console_log.asp)
 
 In Javascript muss oft nach einem Fehler gesucht werden. Die eleganteste und zielführendste **Methode ist mit ``console.log(...)``** die Variable oder das Objektauszugeben.
 
@@ -83,15 +107,18 @@ console.log(userName);
 
 ### Objekte/Arrays
 
+[Objekte - w3schools](https://www.w3schools.com/js/js_objects.asp)
+[Arrays - w3schools](https://www.w3schools.com/js/js_arrays.asp)
+
 Variablen werden **immer mit ``let`` definiert**. Das garantiert, dass die Variable gültig ist. Objekte und assoziative Arrays werden immer über mehrere Zeilen definiert.
 
 ```js
 let userId = 7;
-let fruitArray = [‘Banane’, ‘Orange’, ‘Apfel’];
+let fruitArray = ['Banane', 'Orange', 'Apfel'];
 let carObject = {
-    color: ‘#ffffff‘,
-    size: ‘5’,
-    brand: ‘Audi’
+    color: '#ffffff',
+    size: '5',
+    brand: 'Audi'
 }
 ```
 
@@ -127,6 +154,8 @@ function wettbewerbSubmit() {
 
 ### Bedingungen
 
+[Bedingungen - w3schools](https://www.w3schools.com/js/js_if_else.asp)
+
 If-Bedingungen werden immer über mehrere Zeilen geschrieben. Die geschweiften Klammern erhalten keine neue Zeile.
 
 ```js
@@ -138,6 +167,8 @@ if (userObject.isMale) {
 ```
 
 ### Schleifen
+
+[for-Schleife - w3schools](https://www.w3schools.com/js/js_loop_for.asp)
 
 Selbes wie bei der Bedingung zählt für die Schleifen. In der For-Schleife gibt es nach den Semikolon jeweils ein Leerzeichen.
 
