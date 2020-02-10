@@ -102,10 +102,12 @@ let carObject = {
 Die Funktionen bieten einen guten Weg, **Code zu recyclen**. Für gute Lesbarkeit soll einen starken [Namen](#Grundlagen) gewählt und der Code korrekt eingerückt werden. Immer einen ``return``-Wert definieren.
 
 ```js
-function addFruitToUser(fruit, user) {
+function addFruitToUser(paraFruit, paraUser) {
     return user.currentFruit = fruit;
 }
 ```
+
+Funktionen werden mit lowerCamelCase benennt. Jeder Parameter enhält ein ``para``-Prefix.
 
 ### Events
 
