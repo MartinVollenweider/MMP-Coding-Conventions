@@ -59,7 +59,7 @@
 
 In modernen Applikationen müssen viele Informationen verwaltet werden. Dazu gehört, dass jede Information mindestens drei Operationen kennt: add, edit, delete (AED). Wird eine Funktion geschrieben, sollen gerade Methoden für alle drei Operationen geschrieben werden. Es bietet sich an, die AED-Ausdrücke als Prefix zu nehmen: addName(), editName(), ...
 
-Selbes gilt für boolsche Ausdrücke. Informationen, die nur true oder false sind, beginnen mit 'is...'. Das hat den grossen Vorteil, dass man weiss was der Zustand true bedeutet. Bei der Variable ``isMale`` ist klar, dass true 'männlich' bedeutet.
+Selbes gilt für boolsche Ausdrücke. Informationen, die nur true oder false sind, beginnen mit 'is...'. Das hat den grossen Vorteil, dass man weiss was der Zustand true bedeutet. Bei der Variablen ``isMale`` ist klar, dass true 'männlich' bedeutet.
 
 Auch in JavaScript: **Variablen und Funktionen haben sinnvolle Namen**.
 Die Variablen und Funktionen in JavaScript werden in camelCase geschrieben.
@@ -75,7 +75,7 @@ In den Variabelnamen sollen möglichst **keine Schlüsselwörter aus der Program
 
 [Kommentare - w3schools](https://www.w3schools.com/js/js_comments.asp)
 
-**Kommentare erklären Code.** Das wichtigste dabei ist, dass sie nicht alt sind. Kommentare anpassen, wenn sich der Code verändert - ist im Nachhinein goldwert!
+**Kommentare erklären Code.** Das wichtigste dabei ist, dass sie nicht alt sind. Kommentare anpassen, wenn sich der Code verändert - ist im Nachhinein Goldwert!
 
 ```js
 // gültiger Kommentar
@@ -131,21 +131,19 @@ Mehrdimensionale Variablen, d.h. Arrays werden mit den eckigen Klammern [] defin
 Die Funktionen bieten einen guten Weg, **Code zu recyclen**. Für gute Lesbarkeit soll einen starken [Namen](#Grundlagen) gewählt und der Code korrekt eingerückt werden. Immer einen ``return``-Wert definieren.
 
 ```js
-function addFruitToUser(paraFruit, paraUser) {
-    return user.currentFruit = fruit;
+function rechnenMultiplizieren(paraZahl1, paraZahl2) {
+    return 'Das Ergebnis von ' + paraZahl1 + 'x' + paraZahl2 + ' ist ' + paraZahl1*paraZahl2;
 }
-
-// Aufruf der Funktion
-addFruitToUser('Apfel', 'Hans');
+console.log(rechnenMultiplizieren(7,3));  // Das Ergebnis von 7x3 ist 21
 ```
 
-Funktionen werden mit lowerCamelCase benennt. Jeder Parameter enhält ein ``para``-Prefix.
+Funktionen werden mit lowerCamelCase benennt. Jeder Parameter enthält ein ``para``-Prefix.
 
 ### Events oder Ereignisse
 
 [Events - w3schools](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
 
-In HTML kann man Elementen einen Event zuweisen. Dieser sogenannte 'EventListener' lauscht, bis das Ereigniss passiert. Dies ist meistens mit User-Interaktionen verbunden. Diese werden wiefolg definiert:
+In HTML kann man Elementen einen Event zuweisen. Dieser sogenannte 'EventListener' lauscht, bis das Ereignis passiert. Dies ist meistens mit User-Interaktionen verbunden. Diese werden wie folgt definiert:
 
 ```js
 // Erste mögliche Form
@@ -195,5 +193,5 @@ for (let counter = 1; counter < 15; counter++) {
 <div align="center">
   <h4>Besten Dank für deine Aufmerksamkeit!</h4>
   
-  Wenn du Anmerkungen zu den obigen Coding-Conentions hast, so schreibe eine [Mail](mailto:samuel.rhyner@fhgr.ch).
+  Wenn du Anmerkungen zu den obigen Coding-Conventions hast, so schreibe eine [Mail](mailto:samuel.rhyner@fhgr.ch).
 </div>
