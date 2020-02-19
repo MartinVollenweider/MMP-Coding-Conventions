@@ -66,9 +66,10 @@ Die Variablen und Funktionen in JavaScript werden in camelCase geschrieben.
 
 ```js
 let userName = 'Paul'; // eine Variable gesetzt
+let aktuelleMWST = 7.7; // aktuelle Mehrwertsteuer
 ```
 
-In den Variabelnamen sollen möglichst **keine Schlüsselwörter aus der Programmiersprache** vorkomen: for, else, each, if, usw.
+In den Variabelnamen sollen möglichst **keine Schlüsselwörter aus der Programmiersprache** vorkommen: for, else, each, if, usw.
 
 ### Kommentare
 
@@ -91,8 +92,8 @@ In den Variabelnamen sollen möglichst **keine Schlüsselwörter aus der Program
 Um Interaktion mit der Webseite zu erzielen, müssen wir zu gewissen HTML-Elementen JavaScript-Code 'hinzufügen'. Um Elemente im JavaScript auszuwählen (selektieren) nutzen wir die Funktion ``querySelector``. Damit kann via CSS-Selektor ein HTML-Element angewählt werden.
 
 ```js
-let buttonZurueck = document.querySelector('#btnZurueck');
-let subtitleText = document.querySelector('.subtitle');
+let buttonZurueck = document.querySelector('#btnZurueck');  // id
+let subtitleText = document.querySelector('.subtitle'); // Klasse
 ```
 
 ### Fehlersuche
@@ -110,7 +111,7 @@ console.log(userName);
 [Objekte - w3schools](https://www.w3schools.com/js/js_objects.asp)
 [Arrays - w3schools](https://www.w3schools.com/js/js_arrays.asp)
 
-Variablen werden **immer mit ``let`` definiert**. Das garantiert, dass die Variable gültig ist. Objekte und assoziative Arrays werden immer über mehrere Zeilen definiert.
+Variablen werden **immer mit ``let`` definiert**. Das garantiert, dass die Variable gültig ist. Objekte und assoziative Arrays werden immer über mehrere Zeilen definiert. Theoretisch unterscheidet JavaScript zwischen Variablen und Konstanten. Letztere werden aus didaktischen Gründen im Unterricht nicht behandelt.
 
 ```js
 let userId = 7;
@@ -121,6 +122,7 @@ let carObject = {
     brand: 'Audi'
 }
 ```
+Mehrdimensionale Variablen, d.h. Arrays werden mit den eckigen Klammern [] definiert; Objekte mit den geschweiften Klammern {}
 
 ### Funktionen
 
@@ -132,23 +134,33 @@ Die Funktionen bieten einen guten Weg, **Code zu recyclen**. Für gute Lesbarkei
 function addFruitToUser(paraFruit, paraUser) {
     return user.currentFruit = fruit;
 }
+
+// Aufruf der Funktion
+addFruitToUser('Apfel', 'Hans');
 ```
 
 Funktionen werden mit lowerCamelCase benennt. Jeder Parameter enhält ein ``para``-Prefix.
 
-### Events
+### Events oder Ereignisse
 
 [Events - w3schools](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
 
 In HTML kann man Elementen einen Event zuweisen. Dieser sogenannte 'EventListener' lauscht, bis das Ereigniss passiert. Dies ist meistens mit User-Interaktionen verbunden. Diese werden wiefolg definiert:
 
 ```js
+// Erste mögliche Form
 let wettbewerbFormular = document.querySelector("#wettbewerbFormular");
 wettbewerbFormular.addEventListener('submit', wettbewerbSubmit); // Dieser EventListener hört auf den 'submit' Event des Formulars. In diesem Falle ist das das Absenden des Formulars
 
 function wettbewerbSubmit() {
   //...
 }
+
+// Zweite mögliche Form
+let wettbewerbFormular = document.querySelector("#wettbewerbFormular");
+wettbewerbFormular.addEventListener('submit', function() {
+  //...
+ })
 ```
 
 
